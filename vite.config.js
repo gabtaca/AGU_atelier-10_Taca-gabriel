@@ -10,7 +10,11 @@ export default defineConfig({
   // Ensure the server is set up correctly
   server: {
     port: 8070,
-    hot: true
+    hot: true,
+    base: '/',
+    // Additional configuration
+    build: {
+      outDir: 'dist',
   },
   // Resolve aliases for cleaner imports, if needed
   resolve: {
@@ -18,5 +22,6 @@ export default defineConfig({
       // Example: '@' can be used to import from the `src` directory
       '@': path.resolve(__dirname, 'src')
     }
+  }
   }
 });
