@@ -1,6 +1,6 @@
 import "animate.css";
 
-// Define image paths as imports for better Vite handling
+
 import imgHead from './assets/images/img_head.png';
 import imgTail from './assets/images/img_tail.png';
 
@@ -15,8 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('Button clicked, starting animation');
 
       coinImgDiv.classList.remove('animate__animated', 'animate__bounceInDown', 'animate__flipInX', 'animate__bounceOutUp');
-      void coinImgDiv.offsetWidth; // Trigger reflow
-
+      void coinImgDiv.offsetWidth;
       coinImgDiv.classList.add('animate__animated', 'animate__flipInX'); 
 
       setTimeout(() => {
@@ -31,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
           console.log('Image changed to tail');
           resultH1.textContent = 'Tails'; 
         }
-      }, 2500); // Align timing with flip animation duration
+      }, 2500);
 
       coinImgDiv.addEventListener('animationend', (event) => {
         console.log(`Animation ended: ${event.animationName}`);

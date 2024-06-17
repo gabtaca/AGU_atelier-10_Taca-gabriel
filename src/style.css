@@ -46,8 +46,7 @@ h1{
     font-weight: 400;
     font-style: normal;
     color: white;
-    padding-left: 5%;
-    padding-top: 15%;
+    padding-top: 25%;
     color: #FFFFFF;
     text-shadow: 4px 3px 0 #aaaaaa;
 }
@@ -64,6 +63,7 @@ p{
     animation-name: tada;
     animation-duration: 2s;
     animation-iteration-count:infinite;
+    padding-left: 1rem;
 }
 
 .flip__anim{
@@ -114,6 +114,7 @@ p{
     height: 10%;
     font-size: 2vw;
     align-items: center;
+    justify-content: center;
 }
 
 .div__coin-img{
