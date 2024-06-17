@@ -1,0 +1,30 @@
+{
+  "name": "agu_atelier-09_taca-gabriel",
+  "version": "1.0.0",
+  "description": "A project using Vite and Animate.css",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "keywords": [
+    "vite",
+    "animate.css",
+    "project-name"
+  ],
+  "dependencies": {
+    "vite": "^5.3.1"
+  },
+  "devDependencies": {
+    "animate.css": "^4.1.1",
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.0"
+  }
+}

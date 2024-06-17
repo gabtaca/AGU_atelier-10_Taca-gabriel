@@ -1,0 +1,149 @@
+
+
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Sofia&display=swap');
+
+.rampart-one-regular {
+    font-family: "Rampart One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sofia-regular {
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/*Styles*/
+
+body{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-left: 5%;
+    padding-top: 10%;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0 #aaaaaa;
+}
+
+p{
+    font-family: "Rampart One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    animation-duration: 4s;
+}
+
+.result{
+    animation-name: tada;
+    animation-duration: 2s;
+}
+
+.flip__anim{
+    display: flex;
+    width: 100%;
+}
+
+.flip__ctrl{
+    display: flex;
+    width: 100%;
+    padding-top: 35%;
+}
+
+.div__anim{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__flip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5%;
+    font-size: 3vw;
+    background-color: rgb(197, 119, 2);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 
+    inset -7px -8px 27px -8px rgba(0,0,0,0.54), 
+    inset 9px 8px 27px -8px rgba(255,255,255,1);
+}
+.btn__flip:hover {
+    box-shadow: 
+    inset 7px 8px 27px -8px rgba(0,0,0,0.54), 
+    inset -9px -8px 27px -8px rgba(255,255,255,1);
+}
+
+.div__result{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    font-size: 2vw;
+    align-items: center;
+}
+
+.div__coin-img{
+    display: flex;
+    width: 10%;
+    margin: 0 0.5rem;
+    visibility: visible;
+
+}
+
+.img_coin{
+    display: flex;
+    width: 100%;
+}
+
+.div__bg-img{
+    display: flex;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+
+}
+
+.bg__img{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 15;
+    z-index: -1;
+
+}
+
+
