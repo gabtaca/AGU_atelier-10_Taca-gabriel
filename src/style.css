@@ -63,7 +63,7 @@ p{
 .result{
     animation-name: tada;
     animation-duration: 2s;
-    animation:infinite;
+    animation-iteration-count:infinite;
 }
 
 .flip__anim{
